@@ -51,22 +51,22 @@ choco install ffmpeg
 ## 步骤 5: 使用脚本
 ```bash
 # 查看帮助
-python video_downloader.py -h
+python jktvdownload.py -h
 
 # 基本用法（单集下载）
-python video_downloader.py -u "https://www.jktv.app/play/269747-1-1.html"
+python jktvdownload.py -u "https://www.jktv.app/play/269747-1-1.html"
 
 # 使用自定义名称下载单集
-python video_downloader.py -u "https://www.jktv.app/play/269747-1-1.html" -n "要保存的文件名称"
+python jktvdownload.py -u "https://www.jktv.app/play/269747-1-1.html" -n "要保存的文件名称"
 
 # 下载多集（从第1集开始下载3集）
-python video_downloader.py -u "https://www.jktv.app/play/269747-1-1.html" -n "要保存的文件名称" -e 3
+python jktvdownload.py -u "https://www.jktv.app/play/269747-1-1.html" -n "要保存的文件名称" -e 3
 
 # 从指定集数开始下载（从第5集开始下载2集）
-python video_downloader.py -u "https://www.jktv.app/play/269747-1-1.html" -n "要保存的文件名称" -s 5 -e 2
+python jktvdownload.py -u "https://www.jktv.app/play/269747-1-1.html" -n "要保存的文件名称" -s 5 -e 2
 
 # 指定保存目录
-python video_downloader.py -u "https://www.jktv.app/play/269747-1-1.html" -n "要保存的文件名称" -d "./downloads"
+python jktvdownload.py -u "https://www.jktv.app/play/269747-1-1.html" -n "要保存的文件名称" -d "./downloads"
 ```
 # 使用方式2
 ## 步骤1:
@@ -78,20 +78,20 @@ bash setup.sh
 ## 步骤2:
 ```bash
 # 查看帮助
-python video_downloader.py -h
+python jktvdownload.py -h
 
 # 基本用法（单集下载）
-python video_downloader.py -u "https://www.jktv.app/play/269747-1-1.html"
+python jktvdownload.py -u "https://www.jktv.app/play/269747-1-1.html"
 
 # 使用自定义名称下载单集
-python video_downloader.py -u "https://www.jktv.app/play/269747-1-1.html" -n "要保存的文件名称"
+python jktvdownload.py -u "https://www.jktv.app/play/269747-1-1.html" -n "要保存的文件名称"
 
 # 下载多集（从第1集开始下载3集）
-python video_downloader.py -u "https://www.jktv.app/play/269747-1-1.html" -n "要保存的文件名称" -e 3
+python jktvdownload.py -u "https://www.jktv.app/play/269747-1-1.html" -n "要保存的文件名称" -e 3
 
 # 从指定集数开始下载（从第5集开始下载2集）
-python video_downloader.py -u "https://www.jktv.app/play/269747-1-1.html" -n "要保存的文件名称" -s 5 -e 2
+python jktvdownload.py -u "https://www.jktv.app/play/269747-1-1.html" -n "要保存的文件名称" -s 5 -e 2
 
 # 指定保存目录
-python video_downloader.py -u "https://www.jktv.app/play/269747-1-1.html" -n "要保存的文件名称" -d "./downloads"
+python jktvdownload.py -u "https://www.jktv.app/play/269747-1-1.html" -n "要保存的文件名称" -d "./downloads"
 ```
