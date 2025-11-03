@@ -1,3 +1,5 @@
+![](https://img.shields.io/badge/jktv视频下载脚本-red) 
+![](https://img.shields.io/badge/Python-3.13-yellow) 
 从 GitHub 下载使用的完整步骤
 
 步骤 1: 下载脚本文件
