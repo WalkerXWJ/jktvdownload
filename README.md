@@ -7,7 +7,7 @@
 ## 步骤 1: 下载脚本文件
 ```bash
 # 方法3: 如果是在仓库中，直接 git clone
-git clone https://github.com/你的用户名/你的仓库.git
+git clone https://github.com/WalkerXWJ/jktvdownload
 cd jktvdownload
 ```
 ## 步骤 2: 创建并激活虚拟环境（推荐）
